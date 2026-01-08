@@ -1,4 +1,5 @@
 import 'package:condo_hub_app/core/errors/failures.dart';
+import 'package:condo_hub_app/core/utils/either.dart';
 import 'package:condo_hub_app/features/auth/data/datasources/auth_local_datasource.dart';
 import 'package:condo_hub_app/features/auth/data/datasources/auth_remote_datasource.dart';
 import 'package:condo_hub_app/features/auth/data/models/user_model.dart';
@@ -6,7 +7,6 @@ import 'package:condo_hub_app/features/auth/domain/entities/user.dart';
 import 'package:condo_hub_app/features/auth/domain/repositories/auth_repository.dart';
 import 'package:condo_hub_app/features/onboarding/domain/repositories/condominium_repository.dart';
 import 'package:flutter/foundation.dart';
-import 'package:fpdart/fpdart.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
   final AuthRemoteDataSource remoteDataSource;

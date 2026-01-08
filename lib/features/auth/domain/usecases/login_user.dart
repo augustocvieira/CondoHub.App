@@ -1,7 +1,7 @@
 import 'package:condo_hub_app/core/usecases/usecase.dart';
+import 'package:condo_hub_app/core/utils/either.dart';
 import 'package:condo_hub_app/features/auth/domain/repositories/auth_repository.dart';
 import 'package:equatable/equatable.dart';
-import 'package:fpdart/fpdart.dart';
 
 class LoginUser extends UseCase<Either, LoginParams> {
   final AuthRepository repository;
