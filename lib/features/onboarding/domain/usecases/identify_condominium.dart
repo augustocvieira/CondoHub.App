@@ -1,6 +1,5 @@
 import 'package:condo_hub_app/core/usecases/usecase.dart';
 import 'package:condo_hub_app/core/utils/either.dart';
-import 'package:condo_hub_app/features/onboarding/domain/entities/condominium.dart';
 import 'package:condo_hub_app/features/onboarding/domain/repositories/condominium_repository.dart';
 import 'package:equatable/equatable.dart';
 
